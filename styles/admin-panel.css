@@ -1,0 +1,286 @@
+/* Barra navegación */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30pt;
+    padding-bottom: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.user-main {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 50px 0px;
+}
+
+.admin-main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.admin-divs-buttons {
+    background-color: #e2e8cea4;
+    border-radius: 25px;
+    border: 5px solid #545e56c4;
+    padding: 35px 45px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+.admin-divs-buttons a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: #545e56;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+.admin-divs-buttons a img {
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+/* Administración de usuarios */
+a#add-user {
+    background-color: #d59c86;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center !important;
+    justify-content: space-between;
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+#adduser-img {
+    width: 35px;
+}
+
+/* Tabla de usuarios*/
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #545e56;
+    margin: 0px 0px 50px 0px;
+}
+
+.admin-table th {
+    padding: 10px;
+    background-color: #545e56;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #ecf0df;
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.admin-table tr {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.admin-table tr:hover {
+    background-color: #acbfa4;
+}
+
+.admin-table td {
+    padding: 15px 7px;
+    text-align: center;
+}
+
+.user-tools {
+    width: 25px;
+}
+
+/* Formularios */
+.admin-form-div {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#direccion-form {
+    background-color: #ffffff !important;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.admin-form h3 {
+    padding: 5px 0px 10px 5px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
+
+.formSection {
+    width: 300px;
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
+.formSection-full {
+    width: 660px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.admin-button {
+    width: 150px;
+}
+
+.formSection label,
+.formSection-full label {
+    padding: 5px 10px;
+}
+
+.formSection select {
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: white;
+}
+.formSection select option {
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: white;
+}
+
+.formSection input {
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: white;
+}
+
+.formSection-address {
+    background-color: #ecf0df !important;
+}
+
+.formSection-full input,
+.formSection-full textarea {
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: white;
+}
+
+.btn-goback {
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+.btn-goback a {
+    padding: 10px 20px;
+}
+
+.formSection-btn {
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+.div-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.admin-button {
+    background-color: #d59c86;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.admin-button a {
+    color: white;
+}
+.admin-button a:hover {
+    transform: scale(1.1);
+}
+
+.admin-button:hover {
+    transform: scale(1.1);
+}
+.btn-goback:hover {
+    transform: scale(1.1);
+}
+
+.productDetail {
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #acbfa493;
+}
+
+.productDetail-full {
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #acbfa493;
+}
+
+.smallLabel {
+    font-size: 10pt;
+}
+
+.img-details {
+    max-width: 100%;
+}

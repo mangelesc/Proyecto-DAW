@@ -1,0 +1,230 @@
+body {
+    background-color: #f2f2f2;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.UserProfile-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center !important;
+    background: white;
+    padding: 0px;
+    border-radius: 20px;
+    width: 75%;
+    margin-top: 35px;
+    padding-right: 10%;
+}
+.UserProfile-left {
+    width: 30%;
+}
+
+.UserProfile-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.userProf-header {
+    padding: 15px 0px 25px 0px;
+}
+#gretting {
+    font-size: 26pt;
+}
+
+#UserProfile-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
+}
+
+#UserProfile-img img {
+    object-fit: cover;
+}
+
+.userProf-tbody {
+    padding: 20px 35px 15px 45px;
+    width: 100%;
+}
+
+.productProfile-left {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.productProfile-right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.productProf-tbody {
+    padding: 20px 35px 15px 45px;
+    width: 90%;
+}
+
+.userProf-div {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
+.userProf-div-img-div {
+    padding: 5px 20px 5px 0px;
+}
+.userProf-div-img {
+    width: 45px !important;
+    margin: 10px 0px 15px 0px;
+}
+.userProf-div-info {
+    width: 500px;
+    margin: 15px;
+}
+.userProf-div-tittle {
+    margin-bottom: 0px;
+}
+.userProf-div-tittle b {
+    font-size: 10pt;
+}
+.userProf-div-btn {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    height: 55px;
+}
+
+.userProf-div-btn a {
+    text-decoration: none;
+    background-color: #d59c86;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.userProf-div-btn button a {
+    text-decoration: none;
+    color: white;
+}
+.userProf-div-btn:hover {
+    transform: scale(1.1);
+}
+.userProf-div-btn button:hover {
+    transform: scale(1.1);
+}
+
+.btn-delete {
+    padding: 15px 23px !important;
+    background-color: rgb(158, 7, 7) !important;
+}
+
+.producto-titulo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 0px 20px 0px;
+}
+
+.date {
+    padding: 0px 35px 0px 35px;
+    min-width: 100px;
+}
+
+/* botón comprar*/
+a#add-user {
+    background-color: #d59c86;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center !important;
+    justify-content: space-between;
+    width: 110px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+#adduser-img {
+    width: 35px;
+}
+
+.ProductProfile-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center !important;
+    background: white;
+    padding: 0px;
+    border-radius: 20px;
+    margin: 25px 15% 25px 15%;
+    max-width: 90%;
+}
+
+#productProfile-img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
+}
+
+#productProfile-img img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.productProf-div {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+}
+
+.productProf-div-info {
+    width: 700px;
+    margin: 0px;
+}
+
+.productProf-div-img-div {
+    padding: 5px 20px 5px 0px;
+}
+.productProf-div-img {
+    width: 35px !important;
+    margin: 0px;
+}
+
+#userProf-div-btn {
+    margin-top: 0px;
+}
+
+#payment-form {
+    min-width: 500px;
+}
+
+.buy-div {
+    padding-bottom: 20px;
+}
+.buyTittleh3 {
+    font-size: 1.5em;
+}
+
+.buyp {
+    font-size: 1.4em !important;
+}

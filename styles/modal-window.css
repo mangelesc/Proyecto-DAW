@@ -1,0 +1,19 @@
+/* Ventana modal */
+.modal-header {
+    background-color: #acbfa4;
+}
+#divBtnHelp {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    border: none;
+}
+
+#divBtnHelp:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#imgHelp {
+    max-width: 60px;
+}
